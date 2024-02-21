@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+
+    <div class="box">
+        <form action="src/php/contador.php" method="POST" class="form" id="meuFormulario">
+            <input type="radio" id="vasco" name="time" value="vasco" required>
+            <label for="vasco"><img src="src/img/vasco.png"></label>
+
+            <input type="radio" id="flamengo" name="time" value="flamengo">
+            <label for="flamengo"><img src="src/img/flamengo.png"></label>
+
+            <input type="radio" id="botafogo" name="time" value="botafogo">
+            <label for="botafogo"><img src="src/img/botafogo.png"></label>
+
+            <input type="radio" id="fluminense" name="time" value="fluminense">
+            <label for="fluminense"><img src="src/img/fluminense.png"></label>
+
+            <input type="radio" id="saopaulo" name="time" value="saopaulo">
+            <label for="saopaulo"><img src="src/img/saopaulo.png"></label>
+
+            <input type="radio" id="palmeiras" name="time" value="palmeiras">
+            <label for="palmeiras"><img src="src/img/palmeiras.png"></label>
+
+            <input type="radio" id="corinthians" name="time" value="corinthians">
+            <label for="corinthians"><img src="src/img/corinthians.png"></label>
+
+            <input type="radio" id="santos" name="time" value="santos">
+            <label for="santos"><img src="src/img/santos.png"></label>
+        </form>
+    </div>
+    <div class="button">
+        <button id="botaoSubmit" onclick="submitForm()">Enviar Formulário</button>
+    </div>
+
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
